@@ -1,0 +1,64 @@
+
+/* Configuração global */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+h3, p {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+h1 {
+    /* Dando espaço no texto e iniciao da borda  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border-radius: 30px;
+    background: red;
+    color: white;
+    padding-inline-end: 10px;
+}
+h2 {
+    color: red;
+    padding-top: 10px;
+}
+
+/* Combinador Descendente  */
+div h3 {
+    color: red;
+}
+
+/* Combinador Filho  */
+div > p {
+    color: red;
+}
+
+div + p {
+    color: blue;
+}
+
+div ~ p {
+    color: green;
+}
+
+#trilha2 {
+    background-color: lightblue;
+    width: 150px;
+    font-size: medium;
+    height: 50px;
+}

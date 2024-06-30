@@ -1,0 +1,69 @@
+
+
+ *** SELETORES ***
+
+Seletor de Tag/tipo: Busca elementos por uma tag HTML especifica
+Seletor de ID(#): Busca elementos por um ID especifico
+Seletor de classe(.): Busca elementos por uma classe especifica
+Seletor Universal(*): Seleciona todos os elemento HTML
+Seletor de Atributo([atrib]):  Seleciona Elementos que possuem um atributo especifico.
+
+Ex:
+Seletor de tag/tipo: h1 {color: red;}
+Seletor de ID(#): #id {color: red;}
+Seletor de classe(.): .class {color: red;}
+Seletor Universal(*): * {color: red;}
+Seletor de Atributo([atrib]): [title] {color: red;}
+[title="name"] {color: red;} - Vai aplicar somentepara quem tem o atributo title de valor name
+[title~="name"] {color: red;} -  Com ~= ele vai buscar em todos os title, e alterar todos que tem name
+[href^="http://] {color: red;} - Pega todos os atributos com valor que começa com http:// e muda a color
+[href*="http://] {color: red;} - Pega todos que contenha http://
+
+
+ *** COMBINADORES ***
+
+Reaproveita o codigo, no exemplo abaixo esta aplicando tanto para h3 como para P
+h3, p {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000;
+} 
+
+Combinadores descendente (espaço)
+Ex:
+div h3 {
+    color: red;
+}
+
+Combinadores filho (>)
+div > p {
+    color: red;
+}
+
+Combinadores irmão Adjacente (+)
+Pega o proximo da estrutura, o P depois de um Div
+div + p {
+    color: blue;
+}
+no caso acima o paragrafo 5 foi aplicado e o 6 e o 7 não pq ele pega so o 1
+
+
+Combinadores irmão ( ~) - Irmão de qualquer nível
+div ~ p {
+    color: blue;
+}
+Pega o paragrafo 5, 6 e 7
+
+
+ *** LARGURA E ALTURA ***
+wigth - Largura
+heigth - Altura
+max-width - Largura Maxima
+max-height - Altura Maxima
+min-width - Largura Minima
+min-height - Altura Minima
+
+ *** MARGIN ***
+margin - Espaçamento entre elementos
