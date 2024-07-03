@@ -1,0 +1,49 @@
+Existem varias formas de definirmos cores:
+
+* Cores pré-defnidas Ex:
+color: red;
+
+* Cores Palavra-chave "currentcolor"
+Ex:
+currentcolor - ele vai respeitar a cor do fundo 
+
+* Cores RGB
+Ex:
+red - green - blue
+color: rgb(255, 0, 0);
+
+* Cores Hexadecimal
+Ex: Definida por números e letras 0 a 9 e E a F
+FF - Intencidade da cor vermelha 
+00 - Intencidade da cor verde
+00 - Intencidade da cor azul
+color: #FF0000;
+
+* Cores Hexadecimal com transparência
+Ex:
+color: #FF0000FF; - Adiciona 00 totalmete opaco ou FF no final
+
+* Cores RGBA
+Ex:
+red - green - blue - opacidade
+color: rgba(255, 0, 0, 0.5);
+
+
+* Cores HSL
+Ex:
+Hue - Saturation - Lightness
+Hue (Matiz) O grau na roda de cores
+Saturation (Saturação) O grau de saturação da cor
+Lightness (Brilho) O grau de brilho da cor
+color: hsl(0, 100%, 50%);
+
+
+* Cores HSLA
+Ex:
+Hue - Saturation - Lightness - Opacidade
+Hue (Matiz) O grau na roda de cores
+Saturation (Saturação) O grau de saturação da cor
+Lightness (Brilho) O grau de brilho da cor
+Alpha (Transparência) O grau de transparência da cor
+color: hsla(0, 100%, 50%, 0.5);
+

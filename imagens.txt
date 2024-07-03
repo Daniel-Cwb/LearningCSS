@@ -1,0 +1,12 @@
+
+Object-fit (Ajuste de Objeto)
+
+Object-fit: fill; segue como valor padrão da imagem (Ela vai ficar distorcida)
+Object-fit: contain; Vai manter o tamanho proporcional
+Object-fit: cover; Vai preencher todo o container, e vai cortar a imagem que passou
+object-fit: none; proporção de origem
+object-fit: scale-down; Escolhe entre contain ou none a menor imagem
+
+### Object Position ###
+Utilizada em conjunto com o object-fit
+object-position: 50% 50%; - 50% na X  (horizontal) e 50% na Y(vertica)

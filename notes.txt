@@ -67,3 +67,34 @@ min-height - Altura Minima
 
  *** MARGIN ***
 margin - Espaçamento entre elementos
+margin-top - Espaçamento no topo
+margin-bottom - Espaçamento no fundo
+margin-left - Espaçamento na esquerda
+margin-right - Espaçamento na direita
+Se passa 1 valor, irá aplicar para todos os lados
+Se passa 2 valor, irá aplicar em cima e em baixo
+Se passa 3 valor, irá aplicar em cima, lados e baixo
+Se passa 4 valor, irá aplicar em cima, lado direito e baixo e lado esquerdo
+margin: inherit - Pega as margem do elemento pai
+margin: auto - Centraliza o elemento
+margin: 0 auto - Centraliza o elemento e remove a margem superior e inferior
+
+ *** Padding ***
+padding - Espaçamento entre elementos Internos
+padding-top - Espaçamento no topo Interno
+padding-bottom - Espaçamento no fundo Interno
+padding-left - Espaçamento na esquerda Interno
+padding-right - Espaçamento na direita Interno
+Se passa 1 valor, irá aplicar para todos os lados
+Se passa 2 valor, irá aplicar em cima e em baixo
+Se passa 3 valor, irá aplicar em cima, lados e baixo
+Se passa 4 valor, irá aplicar em cima, lado direito e baixo e lado esquerdo
+padding: inherit - Pega as margem do elemento pai
+padding: auto - Centraliza o elemento
+padding: 0 auto - Centraliza o elemento e remove a margem superior e inferior
+
+
+ *** BOX SIZING ***
+ box-sizing - Define como o tamanho do elemento é calculado
+ box-sizing: content-box - Tamanho do elemento é calculado com borda e padding = Soma largura + borda + padding
+ box-sizing: border-box - Tamanho do elemento é calculado com borda e padding = Redimensiona o tamanho para não aumentar
