@@ -1,0 +1,19 @@
+### FONTES ###
+
+Tipos Genericos
+serif
+Tem traços no final da cada caracter (Ex: Times new Roman)
+
+sans-serif
+Não tem traços no final de cada caracter (Ex: Arial)
+
+display
+Fonte que é usada para títulos e subtítulos. (Ex: Impact)
+
+handwriting
+Fonte que imita a caligrafia humana (Ex: Comic Sans)
+
+monospace
+Fonte que tem o mesmo espaço entre cada caracter (Ex: Courier New)
+
+Sites para baixcar fontes (fonts.google.com)

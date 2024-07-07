@@ -1,0 +1,50 @@
+### Bordas ###
+border: dotted  20px blue ;
+
+## border-width - Tamanho da borda ##
+preciso declarar o estilo da borda antes
+border-width: 10px; - Tamanho da borda
+border-width: 10px 20px; - Tamanho da borda em cada lado
+
+
+## border-style - Estilo da borda ##
+border-style: solid;  - Borda solida
+border-style: dotted; - Borda pontilhada Redondada
+border-style: dashed; - Borda tracejada
+border-style: double; - Borda dupla
+border-style: groove; - Borda em relevo 3D
+border-style: ridge; - Borda em relevo 
+border-style: inset; - Borda em relevo
+border-style: outset; - Borda em relevo
+
+## border-color - Cor da borda ##
+border-color: red; - Cor da borda
+
+## border-radius - Raio da borda ##
+border-radius: 30px;
+
+## border Image Source ##
+border-image-source: url('caminho') - Url externa ou interna
+
+
+## border Image Slice ##
+usa o repeat para 
+border-image-slice: 30 - Tamanho da borda
+border-image-slice: 30 30 30 30 - Tamanho da borda em cada lado
+
+
+## Border Image Width ##
+Defini qual a largura da imagem na borda
+border-image-width: 30px; - Tamanho da borda
+
+## Border Image Repeat ##
+Defini se a borda vai repetir
+border-image-repeat: stretch; - vai esticar a imagem para caber na borda, exceto os cantos
+border-image-repeat: repeat; - Repetir a borda
+border-image-repeat: round; - Redimencionar para não cortar
+border-image-repeat: space; - Espaçar a imagem da borda
+
+## Border Image Outset ##
+Defini o quanto a borda vai sair da imagem
+border-image-outset: 30px; - Tamanho da borda
+

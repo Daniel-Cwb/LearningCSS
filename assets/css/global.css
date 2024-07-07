@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+body {
+    height: 200vh;
+}
+
 .firstDiv {
     display: flex;
     flex-direction: column;
@@ -61,4 +65,25 @@ div ~ p {
     width: 150px;
     font-size: medium;
     height: 50px;
+}
+
+.exemplo {
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    background-image: url('../images/professional-challenges.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+    background-attachment: fixed;
+}
+
+.exemplo2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: dotted  20px blue ;
+
 }

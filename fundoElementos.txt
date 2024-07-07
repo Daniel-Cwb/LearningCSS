@@ -1,0 +1,77 @@
+
+# Alterando o Fundo dos Elementos
+
+background-image - Adicona uma imagem dentro do elemento, usa o url('caminho')
+background-size - Tamanho da imagem dentro do elemento, usa o cover
+
+background-image: url('caminho') - Adiciona uma imagem
+background-image: linear-gradient(red, azul) -  Da um efeito linear de cores no elemento
+background-image: radial-gradient(red, azul) - Efeito a partir de um centro no meio do elemento
+
+site exemplo de padrões
+projects.verou.me/css3patterns
+
+### Redimencionando imagem ###
+
+background-size: ;
+Auto: Imagem de fundo vai se ajustar automaticamente
+Cover: Imagem vai se ajustar para cobrir todo o elemento
+Contain: Vai redimensionar para aparecer completamente, mesmo que se a div maior vai dublicar
+Valor: consegue definir umtamanho de medida para a imagem ( background-size: 300px 300px;)
+
+### Repetição das Imagens de Fundo ###
+
+background-repeat - Repete a imagem dentro do elemento, usa o no-repeat
+background-repeat: repeat; -  repete a imagem em todas as  direções (Valor Padrão)
+background-repeat: no-repeat; - Não repete a imagem
+background-repeat: repeat-x; - Repete a imagem horizontalmente
+background-repeat: repeat-y; - Repete a imagem verticalmente
+background-repeat: space; - Repete a imagem verticalmente e horizontalmente com espaço no meio
+background-repeat: round; - Repete a imagem verticalmente e horizontalmente sem cortar imagem
+
+
+### Posicionamento das Imagem ###
+
+background-position - Posiciona a imagem dentro do elemento, usa o left top
+background-position: left top; - Posiciona a imagem no canto superior esquerdo
+background-position: left bottom; - Posiciona a imagem no canto inferior esquerdo
+background-position: right top; - Posiciona a imagem no canto superior direito
+background-position: right bottom; - Posiciona a imagem no canto inferior direito
+background-position: center top; - Posiciona a imagem no centro superior
+background-position: center bottom; - Posiciona a imagem no centro inferior
+background-position: center center; - Posiciona a imagem no centro
+background-position: 50% 50%; - Posiciona a imagem no centro
+
+### Propriedade Background Attachment ###
+
+background-attachment: Fixed; - A imagem dentro do elemento, usa o scroll
+background-attachment: scroll; - Imagem vai se mover com o elemento
+background-attachment: fixed; - Imagem vai ficar fixa dentro do elemento
+
+
+### Propriedade Background Origin ###
+
+background-origin: border-box; - Imagem vai ficar dentro da borda do elemento
+background-origin: padding-box; - Imagem vai ficar dentro do padding do elemento
+background-origin: content-box; - Imagem vai ficar dentro do conteúdo do elemento
+
+### Propriedade Background Clip ###
+
+background-clip: border-box; - Imagem vai ficar dentro da borda do elemento
+background-clip: padding-box; - Imagem vai ficar dentro do padding do elemento
+background-clip: content-box; - Imagem vai ficar dentro do conteúdo do elemento
+
+### Propriedade Background ###
+
+Funciona como se fosse um atalho
+background: 
+    url('../images')
+    top center / 200px 200px
+    no-repeat
+    fixed
+    padding-box
+    content-box
+    red
+;
+
+
