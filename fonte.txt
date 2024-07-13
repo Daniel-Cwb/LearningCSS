@@ -16,4 +16,52 @@ Fonte que imita a caligrafia humana (Ex: Comic Sans)
 monospace
 Fonte que tem o mesmo espaço entre cada caracter (Ex: Courier New)
 
-Sites para baixcar fontes (fonts.google.com)
+Sites para baixar fontes (fonts.google.com)
+Copiar o link de import e adicionad no arquivo css
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+caso a fonte tenha esoaço, adiciona dentro de aspas, caso não ache se colocar , ele busca a proxima
+Ex:
+font-family: 'Open Sans', sans-serif;
+
+font-weight: normal; Deixa a fonte no estado normal
+font-weight: bold; Deixa a fonte em negrito
+
+
+### Tamanho da Fonte ###
+font-size: 16px; Tamanho da fonte em px
+font-size: xx-small; Tamanho bem pequeno
+font-size: x-small; Tamanho pequeno
+font-size: small; Tamanho pequeno
+font-size: medium; Tamanho médio
+font-size: large; Tamanho grande
+font-size: x-large; Tamanho grande
+font-size: xx-large; Tamanho bem grande
+
+### Modificar o stilo da fonte ###
+font-style: italic; Deixa a fonte em itálico
+font-style: oblique; Deixa a fonte em inclinada
+font-style: normal; Deixa a fonte default
+
+### Font Variant ###
+font-variant: small-caps; Deixa a fonte em maiuscula porém de um tamanho menor que com caps
+font-variant: normal;
+
+
+### Deixar o texto mais extreito ou condensado - font-strecch ###
+font-strecch: normal; Deixa o texto normal
+font-strecch: condensed; Deixa o texto mais condensado
+font-strecch: ultra-condensed; Deixa o texto mais condensado
+font-strecch: extra-condensed; Deixa o texto mais condensado
+font-strecch: semi-condensed; Deixa o texto mais condensado
+font-strecch: expanded; Deixa o texto mais extreito
+font-strecch: ultra-expanded; Deixa o texto mais extreito
+
+### Especificar o espaçamento  em cima e abaixo do nosso texto com - line-height ###
+line-height: 1.5; Deixa o espaçamento 1.5 vezes que o tamanho da fonte
+line-height: normal; Deixa o valor default (1,2)
+
+
+
+

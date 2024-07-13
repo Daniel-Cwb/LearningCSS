@@ -1,0 +1,20 @@
+
+
+### Opacidade nos elementos ###
+opacity: .5;
+
+### Controla como dever ser usado o conteudo com Overflow ###
+overflow: visible; - Mostra o texto mesmo ultrapassando o limite
+overflow: hidden; - Oculta o texto que ultrapassa o limite
+overflow: scroll; - Cria um scroll para o conteudo que ultrapassa o limite
+overflow: auto; - Cria um scroll para o conteudo somente se ultrapassa o limite
+
+### Redefinindo as propriedades Padrões dos Navegadores ###
+Técnica de reset css
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none
+}

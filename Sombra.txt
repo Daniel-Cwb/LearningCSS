@@ -1,0 +1,15 @@
+
+
+### Efeito de Sombra nos elementos ###
+
+box-shadow: 10px 10px; - Cria sombra na vertica e horizontal
+box-shadow: 10px 10px red; - Altera a cor da sombra
+box-shadow: 10px 10px 10px red; - Deixa a desfocada
+box-shadow: inset 10px 10px red; - A sombra fica interna
+box-shadow: inset 10px 10px red , 10px 10px black; -  A sombra fica interna vermelha e externa preta
+
+Caso de imagem - chama uma função
+filter: drop-shadow(10px 10px 5px gray)
+
+Efeito de sombra nos textos
+text-shadow: 5px 5px 5px red; - Cria sombra no texto

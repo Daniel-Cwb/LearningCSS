@@ -1,0 +1,67 @@
+
+### Define quais os caracteres iram ficar em maiusculo com text-transform ###
+text-transform: capitalize; - 1º Caracter vai ficar em caixa alta
+text-transform: uppercase; - Todos os caracteres ficam em caixa alta
+text-transform: lowercase; - Todos os caracteres ficam em caixa baixa
+text-transform: none; - default como foi setado
+text-transform: inherit; - Erda a configuração do elemento pai
+
+### Alinhando o texto com text-align ###
+text-align: left; - default
+text-align: right; - Alinha a direita
+text-align: center; - Centralizado
+text-align: justify; - Justifica o texto
+
+### Adicionar ou remover linhas do texto ###
+text-decoration: none; - default
+text-decoration: underline; - Adiciona uma linha abaixo do texto
+text-decoration: overline; - Adiciona uma linha acima do texto
+text-decoration: line-through; - Adiciona uma linha no meio do texto
+
+text-decoration-line: Pode adicionar underline, overline, line-throgh e none.
+text-decoration-color: Pode adicionar uma cor para o texto.
+text-decoration-style: Pode adicionar uma linha sólida, dashed, dotted, double,
+wavy, solid, double, dotted, dashed, wavy, solid, double, dotted,
+dashed, wavy, solid, double, dotted, dashed, wavy, solid, double
+text-decoration-thickness: 1px; - Espessura
+
+
+### Definir um recuo no inicio do texto ###
+text-indent: 20px; - Recuo de 20px
+
+### Adicionar espaçamento entre letras ###
+letter-spacing: 2px; - Espaçamento entre letras de 2px
+
+### Adicionar espaçamento entre Palavras ###
+word-spacing: 2px; - Espaçamento entre palavras de 2px
+
+
+### Estilizar os espaços em branco ###
+white-space: normal; - default
+white-space: pre; - Espaços em branco são mantidos
+white-space: pre-wrap; - Espaços em branco são mantidos e quebra de linha é mantida
+white-space: pre-line; - Quebra de linha é mantida e espaços em branco, porém com apenas um espaço
+white-space: nowrap; - Deixa o texto todo em uma linha apenas
+
+### Definir se uma palavra seja quebrada caso seja muito grande ###
+word-wrap: normal;
+word-wrap: break-word; - Quebra a palavra caso ela seja muito grande
+
+### Define quando o texto dever ser quebrado ###
+word-break: normal; - Não vai quebrar e vai ultrapassar a caixa do texto
+word-break: break-all; - Quebra o texto em qualquer lugar
+word-break: keep-all; - Não quebra o texto em palavras de mais de 2 (usado mais para chines, Japonês, Coreano ...)
+
+### Definir a orientação do texto (Vertical e Horizontal) ###
+writing-mode: horizontal-tb; - default
+writing-mode: vertical-rl; - Texto vertical e lêdo da direita para a esquerda
+writing-mode: vertical-lr; - Texto vertical e lêdo da esquerda para a direita
+
+overflow: hidden; - Ele vai esconter caso passou o elemento
+text-overflow: clip; vai esconder como o hidden do overflow
+text-overflow: ellipsis; vai colocar ... no final do texto
+text-overflow: string; 'Ver mais >'; - So vai funcionar no mozila
+
+
+
+
